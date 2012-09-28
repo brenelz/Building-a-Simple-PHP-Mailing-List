@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+/* UTULITIES */
+.clear{clear: both;}
+.push{height: 30px;}
+/* END */
+/* ORDER PAGE CORRECTLY */
+*{margin: 0; padding: 0;}
+html{overflow-y: scroll;position: relative;}
+body{background-color: #e1e1e1; font-family: "Lucida Grande", Verdana, Arial, sans-serif; width: 100%; height: 100%;}
+/* END */
+h1{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom:  20px;
+	color: #D0D3D3;
+	padding-bottom: 8px; 
+	border-bottom: 1px solid #B4B6B6;
+}
+#wrap{
+	background-color: #888888;
+	width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+}
+form{text-align: center;}
+.label{color: #C3C5C5;font-size: 20px;}
+#email, #password, #username{margin-top: -2px;font-size: 18px;background: none;border: none;border-bottom: 1px dotted black;color: #DBDEDE;}
+
+.message{color:white;padding-top:20px;text-align:center;}
+#login{padding-top: 10px;}
+#create{text-align: left;}
+.input{
+font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+background:none repeat scroll 0 0 #E3E5E5;
+border:1px solid #9A9C9C;
+display: block;
+font-size:16px;
+padding:5px;
+color: #3F4040;
+}
+
+.input:hover, .input:focus{background: #EAECEC;border: 1px solid #575858;}
+.note{color:white;font-size:13px;}
+.log{text-decoration: none; color: white;}
+.small{text-decoration: none; color: white;font-size: 15px;}
+.small:hover{color: black;}
+.stat{text-align: center; color: white;}
